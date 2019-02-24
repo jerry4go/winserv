@@ -46,22 +46,11 @@ Write-Output $a
  
 ### 6. 获取数组的某个值
 
- $a[0]
-
-john
+![image](./static/group01.jpg)
 
 ### 7. 更新数组的值
 
-$a[0]="jenny"
-
-$a
-
-jenny
-
-42
-
-jane
-
+![image](./static/group02.jpg)
 
 ### 8. hash 数组
 
