@@ -55,3 +55,13 @@ Write-Output $a
 ### 8. hash 数组
 
 ![image](./static/hash.jpg)
+
+### 9. 控制语句
+
+if
+
+![image](./static/control-if.jpg)
+
+switch
+
+![image](./static/control-switch.jpg)
