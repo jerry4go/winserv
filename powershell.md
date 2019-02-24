@@ -18,7 +18,7 @@ write-host "hello Powershell"
 
 或者
 
- "hello Powershell"
+echo "hello Powershell"
 
 ### 3. 定义变量
 
