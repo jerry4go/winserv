@@ -1,4 +1,4 @@
-演进：
+# 0.脚本演进：
 
 批处理  文件后缀 .bat
 
@@ -6,7 +6,7 @@ VBS    文件后缀 .vbs
 
 pw     文件后缀 .ps1
 
-常用命令：
+# 常用命令：
 
 1. 查看 powershell 版本
 
@@ -19,3 +19,26 @@ write-host "hello Powershell"
 或者
 
  "hello Powershell"
+
+3. 定义变量
+
+$a=12
+
+或者
+
+Set-Variable -name a -Value "12"
+
+4. 获取变量
+
+$a
+
+或者
+
+Get-Variable a
+
+或者
+
+Write-Output $a
+
+
+
