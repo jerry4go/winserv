@@ -65,4 +65,4 @@ jane
 
 ### 8. hash 数组
 
-[!image](./static/hash.jpg)
+!image(./static/hash.jpg)
