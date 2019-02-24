@@ -68,8 +68,14 @@ switch
 
 break 满足条件即退出
 
+条件进行判断
+
 ![image](./static/control-break.jpg)
 
 default 设置默认值
 
 ![image](./static/control-default.jpg)
+
+### 10. 循环语句
+
+![image](./static/for-foreach-while.jpg)
