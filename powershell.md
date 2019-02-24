@@ -8,8 +8,14 @@ pw     文件后缀 .ps1
 
 常用命令：
 
-1. Get-host 
+1. 查看 powershell 版本
 
-查看 powershell 版本
+Get-host 
 
-2.
+2.  输出 hello Powershell
+
+write-host "hello Powershell"
+
+或者
+
+ "hello Powershell"
