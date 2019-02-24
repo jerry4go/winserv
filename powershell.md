@@ -8,11 +8,11 @@ pw     文件后缀 .ps1
 
 # 常用命令：
 
-1. 查看 powershell 版本
+### 1. 查看 powershell 版本
 
 Get-host 
 
-2.  输出 hello Powershell
+### 2.  输出 hello Powershell
 
 write-host "hello Powershell"
 
@@ -20,7 +20,7 @@ write-host "hello Powershell"
 
  "hello Powershell"
 
-3. 定义变量
+### 3. 定义变量
 
 $a=12
 
@@ -28,7 +28,7 @@ $a=12
 
 Set-Variable -name a -Value "12"
 
-4. 获取变量
+### 4. 获取变量
 
 $a
 
