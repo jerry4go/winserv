@@ -10,7 +10,7 @@ pw     文件后缀 .ps1
 
 ### 1. 查看 powershell 版本
 
-Get-host 
+![image](./static/get-host.jpg)
 
 ### 2.  输出 hello Powershell
 
@@ -19,6 +19,9 @@ write-host "hello Powershell"
 或者
 
 echo "hello Powershell"
+
+![image](./static/write-host-echo.jpg)
+
 
 ### 3. 定义变量
 
