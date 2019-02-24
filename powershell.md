@@ -31,6 +31,9 @@ $a=12
 
 Set-Variable -name a -Value "12"
 
+![image](./static/define.jpg)
+
+
 ### 4. 获取变量
 
 $a
