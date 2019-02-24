@@ -40,5 +40,12 @@ Get-Variable a
 
 Write-Output $a
 
+5. 创建数组
+
+ $a = @("john",42,"jane")
+ 
+6. 获取数组的某个值
+
+ $a[0]
 
 
