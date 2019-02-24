@@ -65,3 +65,11 @@ if
 switch
 
 ![image](./static/control-switch.jpg)
+
+break 满足条件即退出
+
+![image](./static/control-break.jpg)
+
+default 设置默认值
+
+![image](./static/control-default.jpg)
