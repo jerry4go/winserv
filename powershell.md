@@ -48,4 +48,18 @@ Write-Output $a
 
  $a[0]
 
+john
+
+### 7. 更新数组的值
+
+$a[0]="jenny"
+
+$a
+
+jenny
+
+42
+
+jane
+
 
