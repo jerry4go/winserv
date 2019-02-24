@@ -63,3 +63,6 @@ jenny
 jane
 
 
+### 8. hash 数组
+
+[!image](./static/hash.jpg)
