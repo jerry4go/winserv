@@ -78,4 +78,10 @@ default 设置默认值
 
 ### 10. 循环语句
 
+for 自增输出
+
+foreach 遍历数组
+
+while 循环
+
 ![image](./static/for-foreach-while.jpg)
