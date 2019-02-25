@@ -14,6 +14,10 @@ https://www.microsoft.com/en-us/download/details.aspx?id=45885
 
 https://github.com/PowerShell/PowerShell
 
+powershell 在线学习网站
+
+http://www.pstips.net/
+
 
 # 0.1 启用 接受远程请求(开启远程访问)
 ```
