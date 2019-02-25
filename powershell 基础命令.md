@@ -1,6 +1,13 @@
 # 0. 官网
 
+powershell 官网
+
 https://docs.microsoft.com/en-us/powershell/wmf/overview
+
+powershell ISE 编辑器下载
+
+https://www.microsoft.com/en-us/download/details.aspx?id=45885
+
 
 
 # 0.1 启用 接受远程请求(开启远程访问)
