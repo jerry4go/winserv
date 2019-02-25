@@ -13,6 +13,16 @@ winrm quickconfig
 ```
 winrm set winrm/config/client '@{TrustedHosts="*"}'
 ```
+
+# 0.3 测试远程主机是否允许连接
+
+```
+Test-WsMan xxx.xxx.xxx.xxx
+```
+
+![image](./static/test-wsman.jpg)
+
+
 # 1. 查看PowerShell版本信息
 
 ```powershell
