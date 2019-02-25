@@ -1,3 +1,7 @@
+# 0. 官网
+
+https://docs.microsoft.com/en-us/powershell/wmf/overview
+
 # 1. 查看PowerShell版本信息
 
 ```powershell
