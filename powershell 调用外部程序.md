@@ -27,7 +27,8 @@ Windows提供了一个taskkill.exe程序，通过它也可以停止程序：task
 4、使用点（.）调用ps1或批处理文件（Invoke-Expression）
 ```
 语法：. 
-说明：可以在PowerShell交互环境中和PS1文件中调用现有的PS1文件，使用点（.）作为调用符。我曾经试过使用Invoke-Item，好像没有启动得了。
+说明：可以在PowerShell交互环境中和PS1文件中调用现有的PS1文件，使用点（.）作为调用符。
+我曾经试过使用Invoke-Item，好像没有启动得了。
 也可以使用Invoke-Expression（Alias为iex）命令来实现，有两种用法：
 C:\PS>invoke-expression -command "C:\ps-test\testscript.ps1"
 C:\PS> "C:\ps-test\testscript.ps1" | invoke-expression
@@ -53,7 +54,8 @@ $execArgs=$execArgs+"-localpath=`"d:\123\`" "
 ```
 7、使用cmd执行DOS内部或外部命令
 ```
-说明：有很多DOS命令被CmdLet的别名占用了，所以如果还像之前一样使用就会发现参数可能不正确了。为了可以与以前批处理里面用法兼容，可以使用cmd /c来调用DOS内部或外部命令。
+说明：有很多DOS命令被CmdLet的别名占用了，所以如果还像之前一样使用就会发现参数可能不正确了。
+为了可以与以前批处理里面用法兼容，可以使用cmd /c来调用DOS内部或外部命令。
 语法：cmd /c 
 举例：cmd /c del /s /q D:\testdir\testsubdir\*.*
 ```
