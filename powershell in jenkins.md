@@ -35,3 +35,79 @@ Invoke-Command -Session $session -ScriptBlock{
 }
 ```
 
+### 2.3 本地文件拷贝
+
+```
+Copy-Item -Path "D:\\测试用文件.txt" -Destination "D:\\tt" -Force
+```
+
+### 2.4 拷贝本地文件到远程服务器
+
+```
+ls "local folder" | cp -Destination "remote folder" -ToSession $session -Recurse -Force
+ls "C:\tmp" | cp -Destination "D:\tt" -ToSession $session -Recurse -Force
+```
+
+### 2.5 拷贝远程服务器文件到本地
+
+```
+cp -FromSession $session -Path "Remote File" -Destination "Local Folder" -Recurse -Force
+cp -FromSession $session -Path "D:\tt\测试用文件3.txt" -Destination "D:\tt01" -Recurse -Force
+```
+
+### 3.1 将文件打包成zip
+
+```
+Compress-Archive "Folder" -DestinationPath "Zip File Name" -Force
+Compress-Archive "D:\tt" -DestinationPath "D:\tt01.zip" -Force
+```
+
+### 3.2 将zip文件解压
+
+```
+Expand-Archive "Zip File Name" -DestinationPath "Folder" -Force
+Expand-Archive "D:\tt01.zip" -DestinationPath "D:\tt01" -Force
+```
+
+### 4. 释放PSSession
+
+```
+Remove-PSSession -Id $session.Id #使用完毕后一定记得释放PSSesion
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
