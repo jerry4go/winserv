@@ -3,13 +3,16 @@
 https://docs.microsoft.com/en-us/powershell/wmf/overview
 
 
-# 启用 接受远程请求
-
+# 0.1 启用 接受远程请求(开启远程访问)
+```
 winrm quickconfig
-
+```
 ![image](./static/winrm.jpg)
 
-
+# 0.2 在 客户端  设置白名单
+```
+winrm set winrm/config/client '@{TrustedHosts="*"}'
+```
 # 1. 查看PowerShell版本信息
 
 ```powershell
