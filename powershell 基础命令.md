@@ -18,6 +18,8 @@ powershell 在线学习网站
 
 http://www.pstips.net/
 
+http://www.splaybow.com/powershell.html
+
 
 # 0.1 启用 接受远程请求(开启远程访问)
 ```
