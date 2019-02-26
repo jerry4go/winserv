@@ -19,3 +19,13 @@ PowerShell
 4.  修改Jenkins 服务为管理员账户启动 
 
 ![image](./static/logon.jpg)
+
+5.  配置账号密码隐藏
+
+![image](./static/secret.jpg)
+
+![image](./static/secret02.jpg)
+
+![image](./static/secret03.jpg)
+
+
