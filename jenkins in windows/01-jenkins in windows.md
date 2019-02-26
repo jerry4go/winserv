@@ -35,3 +35,10 @@ PowerShell
 在构建任务中进行调用
 
 ![image](./static/secret05.jpg)
+
+
+### 6.  根据SVN tag 参数构建
+
+![image](./static/svntag01.jpg)
+
+![image](./static/svntag02.jpg)
