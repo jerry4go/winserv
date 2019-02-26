@@ -43,9 +43,15 @@ PowerShell
 
 ![image](./static/svntag02.jpg)
 
+SVN仓库分别创建两个目录，tags用于存放打的tag,trunk作为主干分支，用于提交代码
+
 ![image](./static/svntag03.jpg)
 
+打tag前，需要先把当前代码提交 svn commit
+
 ![image](./static/svntag04.jpg)
+
+填写一个新的tag编号
 
 ![image](./static/svntag05.jpg)
 
