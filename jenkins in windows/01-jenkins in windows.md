@@ -28,4 +28,8 @@ PowerShell
 
 ![image](./static/secret03.jpg)
 
+![image](./static/secret04.jpg)
 
+在构建任务中进行调用
+
+![image](./static/secret05.jpg)
