@@ -52,7 +52,7 @@ Get-Process -Name QQ | Select-Object *
 
 9.变量操作
 
-![image](./static/get-methods.jpg)
+![image](./static/methods.jpg)
 
 10.查看历史操作记录
 
