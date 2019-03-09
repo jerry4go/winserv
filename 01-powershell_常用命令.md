@@ -38,6 +38,49 @@ Get-Process
 
 ![image](./static/get-process.jpg)
 
+查看指定名字的进程
+
+Get-Process -Name chrome
+
+查看进程所有属性
+
+Get-Process -Name chrome | Get-Member
+
+查看进程所有的对象
+
+Get-Process -Name QQ | Select-Object *
+
+9.变量操作
+
+![image](./static/get-methods.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
