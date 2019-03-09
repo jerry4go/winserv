@@ -99,8 +99,14 @@ ackgroundColor Magenta}
 ![image](./static/get-psdrive06.jpg)
 
 
-12.
-
+12.查看当前系统安装的模块
+```powershell
+Get-Module
+```
+13.查看当前系统版本
+```powershell
+$PSVersionTable
+```
 
 
 
