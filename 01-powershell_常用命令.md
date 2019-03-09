@@ -80,7 +80,9 @@ Get-PSDrive | Where-Object {$_.Free -gt 1} | Select-Object Root,Used,Free
 
 ![image](./static/get-psdrive03.jpg)
 
-powershell```Get-PSDrive | Where-Object {$_.Free -gt 1} | ForEach-Object {Write-Host "Free Space for" $_.root "is"  $_.Free -ForegroundColor green}```
+```powershell
+Get-PSDrive | Where-Object {$_.Free -gt 1} | ForEach-Object {Write-Host "Free Space for" $_.root "is"  $_.Free -ForegroundColor green}
+```
 
 ![image](./static/get-psdrive04.jpg)
 
