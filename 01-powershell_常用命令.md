@@ -1,38 +1,38 @@
-1.²éÑ¯´øservice µÄÃüÁî
+1.æŸ¥è¯¢å¸¦service çš„å‘½ä»¤
 
 Get-Command -Noun service
 
 ![image](./static/get-command.jpg)
 
-2.²é¿´powershellËùÓĞµÄÃüÁî
+2.æŸ¥çœ‹powershellæ‰€æœ‰çš„å‘½ä»¤
 
 Get-Command
 
-3.»ñÈ¡µ±Ç°ÏµÍ³µÄËùÓĞ·şÎñ(°üº¬Æô¶¯ºÍÍ£Ö¹)
+3.è·å–å½“å‰ç³»ç»Ÿçš„æ‰€æœ‰æœåŠ¡(åŒ…å«å¯åŠ¨å’Œåœæ­¢)
 
 Get-Service
 
-4.²é¿´Ä³¸öÃüÁîµÄ°ïÖúĞÅÏ¢
+4.æŸ¥çœ‹æŸä¸ªå‘½ä»¤çš„å¸®åŠ©ä¿¡æ¯
 
 Get-Help Get-Service
 
 ![image](./static/get-help.jpg)
 
-5.²é¿´Ä³¸öÃüÁîµÄÊ¹ÓÃÊ¾Àı
+5.æŸ¥çœ‹æŸä¸ªå‘½ä»¤çš„ä½¿ç”¨ç¤ºä¾‹
 
 Get-Help Get-Service -examples
 
-6.ÔÚÏß²é¿´Ä³¸öÃüÁîµÄ°ïÖúĞÅÏ¢
+6.åœ¨çº¿æŸ¥çœ‹æŸä¸ªå‘½ä»¤çš„å¸®åŠ©ä¿¡æ¯
 
 Get-Help Get-Service -online
 
-7.²é¿´Ä³¸ö±ğÃûµÄÊµ¼ÊÃüÁî
+7.æŸ¥çœ‹æŸä¸ªåˆ«åçš„å®é™…å‘½ä»¤
 
 Get-Alias cls
 
 ![image](./static/get-alias.jpg)
 
-8.²é¿´ÏµÍ³½ø³Ì
+8.æŸ¥çœ‹ç³»ç»Ÿè¿›ç¨‹
 
 Get-Process
 
