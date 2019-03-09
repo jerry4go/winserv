@@ -64,7 +64,16 @@ Get-History
 
 history
 
-11.
+11.查询系统硬盘列表
+
+get-psdrive
+
+![image](./static/get-psdrive.jpg)
+
+![image](./static/get-psdrive02.jpg)
+
+
+12.
 
 
 
