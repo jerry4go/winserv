@@ -32,7 +32,12 @@ Get-Alias cls
 
 ![image](./static/get-alias.jpg)
 
-8.
+8.查看系统进程
+
+Get-Process
+
+![image](./static/get-process.jpg)
+
 
 
 
