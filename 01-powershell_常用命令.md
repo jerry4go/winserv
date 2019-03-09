@@ -16,6 +16,8 @@ Get-Service
 
 Get-Help Get-Service
 
+![image](./static/get-help.jpg)
+
 5.查看某个命令的使用示例
 
 Get-Help Get-Service -examples
@@ -23,6 +25,14 @@ Get-Help Get-Service -examples
 6.在线查看某个命令的帮助信息
 
 Get-Help Get-Service -online
+
+7.查看某个别名的实际命令
+
+Get-Alias cls
+
+![image](./static/get-alias.jpg)
+
+8.
 
 
 
