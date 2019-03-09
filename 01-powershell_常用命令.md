@@ -91,10 +91,10 @@ Get-PSDrive | Where-Object {$_.Free -gt 1} | ForEach-Object {Write-Host "Free Sp
 ![image](./static/get-psdrive05.jpg)
 
 ```powershell
-Get-PSDrive | Where-Object {$_.Free -gt 1} | ForEach-Object {$count = 0; Write-Host "";}  {$_.Name +
-": Used:" + "{0:N2}" -f ($_.Used/1gb) + "Free" + "{0:N2}" -f ($_.Free/1gb) + "Total" + "{0:N2}" -f (($_.Used/1gb)+($_.Fr
-ee/1gb)); $count = $count + $_.Free; } {Write-Host "";Write-Host "Total Free Space" ("{0:N2}" -f ($count/1gb)) -Backgrou
-ndColor Magenta}
+Get-PSDrive | Where-Object {$_.Free -gt 1} | ForEach-Object {$count = 0; Write-Host "";}  {$_.Name
+": Used: " + "{0:N2}" -f ($_.Used/1gb) + " Free: " + "{0:N2}" -f ($_.Free/1gb) + " Total: " + "{0:N2}" -f (($_.Used/1g
++($_.Free/1gb)); $count = $count + $_.Free; } {Write-Host "";Write-Host "Total Free Space" ("{0:N2}" -f ($count/1gb))
+ackgroundColor Magenta}
 ```
 ![image](./static/get-psdrive06.jpg)
 
