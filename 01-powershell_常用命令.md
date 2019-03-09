@@ -86,6 +86,11 @@ Get-PSDrive | Where-Object {$_.Free -gt 1} | ForEach-Object {Write-Host "Free Sp
 
 ![image](./static/get-psdrive04.jpg)
 
+对空闲的硬盘空间进行单位换算和小数点位数保留
+
+![image](./static/get-psdrive05.jpg)
+
+
 12.
 
 
