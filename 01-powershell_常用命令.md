@@ -1,3 +1,7 @@
+0.脚本执行策略
+
+![image](./static/get-executionpolicy.jpg)
+
 1.查询带service 的命令
 
 Get-Command -Noun service
