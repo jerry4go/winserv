@@ -54,6 +54,13 @@ Get-Process -Name QQ | Select-Object *
 
 ![image](./static/get-methods.jpg)
 
+10.查看历史操作记录
+
+Get-History
+
+history
+
+11.
 
 
 
