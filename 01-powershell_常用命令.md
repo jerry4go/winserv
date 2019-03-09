@@ -70,7 +70,15 @@ get-psdrive
 
 ![image](./static/get-psdrive.jpg)
 
+ Get-PSDrive | Where-Object {$_.Free -gt 1}
+ 
+ $_ 代表当前管道传过来的所有对象
+
 ![image](./static/get-psdrive02.jpg)
+
+Get-PSDrive | Where-Object {$_.Free -gt 1} | Select-Object Root,Used,Free
+
+![image](./static/get-psdrive03.jpg)
 
 
 12.
