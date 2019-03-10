@@ -131,6 +131,10 @@ $betterdate |Get-Member
 
 ![image](./static/get-date02.jpg)
 
+日期格式化输出
+
+![image](./static/get-date03.jpg)
+
 
 15.查看系统日志
 
