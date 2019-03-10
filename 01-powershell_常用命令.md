@@ -159,7 +159,7 @@ Write-Host "hello" -ForegroundColor Red -BackgroundColor blue
 
 "my name is wangmeimei ." | Tee-Object out2.txt
 ```
-![image](./static/outfile.jpg)
+![image](./static/out-file.jpg)
 
 18.输出警告和提示
 ```powershell
