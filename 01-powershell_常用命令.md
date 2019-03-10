@@ -143,6 +143,12 @@ $betterdate |Get-Member
 Get-EventLog System -After (Get-Date).AddDays(-1)
 ```
 
+16.输出到屏幕
+
+![image](./static/write-host.jpg)
+
+
+
 
 
 
