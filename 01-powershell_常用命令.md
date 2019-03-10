@@ -110,11 +110,34 @@ ackgroundColor Magenta}
 ```powershell
 Get-Module
 ```
+
 13.查看当前系统版本
 ```powershell
 $PSVersionTable
 ```
 
+14.查看当前系统时间
+```powershell
+get-date
+```
+![image](./static/get-date.jpg)
+
+设置一个时间格式的变量的方法
+```powershell
+$betterdate = Get-Date "4/3/2019 10:30 PM"
+
+$betterdate |Get-Member
+```
+
+![image](./static/get-date02.jpg)
+
+
+15.查看系统日志
+
+查看一天前的系统日志
+```powershell
+Get-EventLog System -After (Get-Date).AddDays(-1)
+```
 
 
 
