@@ -147,6 +147,13 @@ Get-EventLog System -After (Get-Date).AddDays(-1)
 
 ![image](./static/write-host.jpg)
 
+对输出的字符设置字体颜色和背景颜色
+
+Write-Host "hello" -ForegroundColor Red -BackgroundColor blue
+
+17. 
+ 
+
 
 
 
