@@ -8,6 +8,13 @@ Get-Command -Noun service
 ```
 ![image](./static/get-command.jpg)
 
+查看某个模块的所有命令参数
+
+Get-Command -Module PSReadline
+
+![image](./static/get-command02.jpg)
+
+
 2.查看powershell所有的命令
 ```powershell
 Get-Command
