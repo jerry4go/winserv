@@ -151,7 +151,27 @@ Get-EventLog System -After (Get-Date).AddDays(-1)
 
 Write-Host "hello" -ForegroundColor Red -BackgroundColor blue
 
-17. 
+17.字符串输出到文件
+```powershell
+"my name is wangmeimei ." | Out-File out.txt
+
+或者
+
+"my name is wangmeimei ." | Tee-Object out2.txt
+```
+![image](./static/outfile.jpg)
+
+18.输出警告和提示
+```powershell
+Write-Warning "this is demo for warning"
+ 
+Write-Warning "this is demo for warning" -WarningAction Inquire
+```
+![image](./static/write-warning.jpg)
+
+
+
+ 
  
 
 
