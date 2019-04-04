@@ -6,11 +6,11 @@ pstools 是微软推出的远程管理工具
 
 而pstools可以访问指定的远程会话，来执行命令
 
-2.pstools官网下载地址
+# 2.pstools官网下载地址
 
 https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
 
-3.查看当前远程桌面的会话ID
+# 3.查看当前远程桌面的会话ID
 
 cmd----quser
 
@@ -20,7 +20,7 @@ cmd----quser
 
 psexec -s -i 123 calc.exe
 
-4.pstools开放的端口
+# 4.pstools开放的端口
 
 TCP 135
 
@@ -28,9 +28,9 @@ TCP 445
 
 随机端口 TCP  49670~。。。
 
-5.相关应用
+# 5.相关应用
 
-1)psexec是一个远程执行工具
+## 1)psexec是一个远程执行工具
 
 它的使用格式为：
 
@@ -51,7 +51,7 @@ psexec \\远程机器ip [-u username [-p password]] [-c [-f]] [-i][-d] program [
 psexec \\远程机器ip -u abc -p 123 -c c:\tftp32.exe -d
 
 
-2)psservice是一个服务管理程序。
+## 2)psservice是一个服务管理程序。
 
 psservice [\\远程机器ip [-u username] [-p password]] <command> <options>
 
