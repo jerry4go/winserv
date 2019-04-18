@@ -19,14 +19,19 @@ get-wmiobject win32_process | where commandline -match  cmdRoom.bat | seleclt Co
 
 删除一个文件
 Remove-Item c:/scripts test.txt
+
 删除目录里面的所有文件
 Remove-Item c:/scripts/* -recurse
+
 排除删除的文件后缀
 Remove-Item c:/scripts/* -exclude *.wav
+
 删除指定后缀的文件
 Remove-Item c:/scripts/* -include .wav,.mp3
+
 排除和删除指定文件
 Remove-Item c:/scripts/* -include *.txt –exclude *test*
+
 模拟命令会删除哪些文件，实际并不删除，只是演练
 Remove-Item c:/scripts/*.vbs -whatif
 
