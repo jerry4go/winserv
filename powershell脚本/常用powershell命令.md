@@ -10,6 +10,19 @@ get-process mongod | stop-process
 ```powershell
 get-wmiobject win32_process | where commandline -match  cmdRoom.bat | remove-wmiobject
 ```
+根据路径查询相关进程的指定列信息
+```powershell
+get-wmiobject win32_process | where commandline -match  cmdRoom.bat | seleclt CommandLine, ProcessID
+```
+
+```powershell
+```
+
+```powershell
+```
+
+```powershell
+```
 
 ```powershell
 ```
