@@ -6,8 +6,9 @@ Stop-Process -Id (Get-NetTCPConnection -LocalPort 9002).OwningProcess -Force
 ```powershell
 get-process mongod | stop-process
 ```
-
+根据命令行的路径来判断同一个进程名称的不同进程
 ```powershell
+get-wmiobject win32_process | where commandline -match  cmdRoom.bat | where commandline -match ServerID | remove-wmiobject
 ```
 
 ```powershell
