@@ -42,7 +42,6 @@ Remove-Item c:/scripts/*.vbs -whatif
 
 Copy-Item c:/scripts/Test.txt  c:/Test
 
-
 在 C:/Scripts（包括要覆盖的文件夹） 复制所有项目到 C:/Test
 
 Copy-Item c:/scripts/*  c:/Test
@@ -57,6 +56,31 @@ Copy-Item c:/scripts c:/Test –recurse
 
 
 ```
+
+文件操作
+
+```powershell
+创建一个目录
+
+New-Item -Path E:\PSTest\NewDir -ItemType Directory –Force
+
+创建一个文件
+
+New-Item -Path E:\PSTest\NewDir\new.txt -ItemType File –Force 
+
+复制文件
+
+copy-Item -Path E:\PSTest\NewDir\new.txt -Destination D:\ -PassThru –Force
+
+复制目录
+
+Copy-Item -Path E:\PSTest\NewDir -Destination D:\ -PassThru -Force –Recurse
+
+打开文件
+
+Invoke-Item C:\Windows\win.ini
+```
+
 
 字符串截取
 ```powershell
