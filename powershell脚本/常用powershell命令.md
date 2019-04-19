@@ -38,6 +38,23 @@ Remove-Item c:/scripts/*.vbs -whatif
 ```
 文件重命名
 ```powershell
+这里有一个命令从C:/ Scripts 文件夹下复制文件 Test.txt  到C: /Test 文件夹：
+
+Copy-Item c:/scripts/Test.txt  c:/Test
+
+
+在 C:/Scripts（包括要覆盖的文件夹） 复制所有项目到 C:/Test
+
+Copy-Item c:/scripts/*  c:/Test
+
+在 C:/Scripts 里只复制 .txt 文件到 C:/Test 
+
+Copy-Item c:/scripts/*.txt  c:/Test
+
+复制一个文件夹 C:/Scripts 复制到文件夹 C:/Test 里
+
+Copy-Item c:/scripts c:/Test –recurse
+
 
 ```
 
