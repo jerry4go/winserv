@@ -88,9 +88,18 @@ Invoke-Item C:\Windows\win.ini
 标签号是从0开始的
 ```
 
-
+输出字符串到文件
 
 ```powershell
+
+PS C:\Users\spaybow> "Hello World!" | Out-File d:\1.txt
+PS C:\Users\spaybow> type d:\1.txt
+Hello World!
+
+输出文件，并且编码
+
+$fname+".plist" |Out-File name.plist -Encoding ascii
+
 ```
 
 ```powershell
