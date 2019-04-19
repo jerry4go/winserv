@@ -39,6 +39,7 @@ Remove-Item c:/scripts/*.vbs -whatif
 字符串截取
 ```powershell
 ("we-rt-192.168.12.11-45.exe" -split "-")[2]
+标签号是从0开始的
 ```
 
 ```powershell
