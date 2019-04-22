@@ -32,4 +32,9 @@ PS C:\> ((Get-Content -path C:\ReplaceDemo.txt -Raw) -replace 'brown','white') |
 PS C:\> Get-Content -path C:\ReplaceDemo.txt
 The quick white fox jumped over the lazy dog
 
+
+如果修改的内容中包含中文字符，请进行UTF-8编码，否则会乱码，这是一个大坑
+
+(Get-Content -path "c:\temp\test.txt") | Set-Content -Encoding UTF8 -Path "c:\temp\test.txt"
+
 ```
