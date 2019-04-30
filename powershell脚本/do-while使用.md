@@ -29,3 +29,9 @@ while($n -gt 0)
 1
 ```
 
+3.使用continue关键字，可是终止当前循环，跳过continue后其它语句，重新下一次循环。
+
+```powershell
+
+```
+
