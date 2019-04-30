@@ -69,3 +69,30 @@ while($n -lt 6)
 3
 5
 ```
+
+
+4.跳出循环语句使用break关键字
+
+```powershell
+$n=1
+
+while($n -lt 6)
+
+{
+
+    if($n -eq 4)
+
+    {
+    
+      break
+
+    }
+
+    $n
+
+    $n++
+
+
+}
+
+```
