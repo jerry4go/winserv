@@ -32,6 +32,40 @@ while($n -gt 0)
 3.使用continue关键字，可是终止当前循环，跳过continue后其它语句，重新下一次循环。
 
 ```powershell
+$n=1
 
+while($n -lt 6)
+
+{
+
+   if($n -eq 4)
+
+   {
+   
+     $n=$n+1
+
+     continue
+
+   }
+
+   else
+
+   {
+   
+    $n
+   
+   }
+
+   $n=$n+1
+
+}
 ```
 
+输出结果
+
+```
+1
+2
+3
+5
+```
