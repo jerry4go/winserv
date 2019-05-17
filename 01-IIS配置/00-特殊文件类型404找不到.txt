@@ -1,0 +1,16 @@
+报错信息
+```
+HTTP Error 404.3 - Not Found 
+The requested page can not be displayed due to a configuration extension. 
+If the page is a script, you must add a handler. 
+```
+
+打开IIS 所在站点 ， 点击  MIME类型
+
+添加
+
+文件类型： .apk
+
+MIME类型：application/vnd.android.package-archive
+
+
