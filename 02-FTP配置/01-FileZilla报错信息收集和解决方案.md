@@ -9,7 +9,7 @@
 打开 FileZilla Server 管理界面-设置-Miscellaneous-Allow downloading of files which are open for writing by another process.
 
 
-![image](./static/ftp01.png)
+![image](../static/ftp01.png)
 
 
 
