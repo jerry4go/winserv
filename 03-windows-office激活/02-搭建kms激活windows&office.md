@@ -73,6 +73,16 @@ cscript ospp.vbs /act
 
 cscript ospp.vbs /dstatus
 
+先查看旧的key,然后再卸载原先的key
+
+cscript ospp.vbs /dstatus
+
+cscript ospp.vbs /unpkey:AB12C
+
+刷新命令
+
+cscript ospp.vbs /remhst
+
 # 注意点
 
 1.激活的有效期只有180天
