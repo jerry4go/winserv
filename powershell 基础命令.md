@@ -59,3 +59,11 @@ get-help Copy-Item -examples
 Update-Help -Verbose -Force -ErrorAction SilentlyContinue
 ```
 
+# 4. 睡眠时间
+
+```powershell
+暫停Windows PowerShell 10秒：
+Start-Sleep –s 10
+暫停腳本10秒（10,000毫秒）
+Start-Sleep –m 10000
+```
