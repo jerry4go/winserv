@@ -213,6 +213,12 @@ WMI 对象 + 遍历 + cmdlet方法
 
 `Get-WmiObject Win32_Process -Filter "name = 'notepad.exe'" | Invoke-WmiMethod -Name Terminate | Out-Null`
 
+23.优雅的关闭进程（无法通过远程执行）
+
+`(Get-Process -Id 10024).CloseMainWindow()`
+
+24.
+
 
 
  
