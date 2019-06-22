@@ -170,6 +170,49 @@ Write-Warning "this is demo for warning" -WarningAction Inquire
 ```
 ![image](./static/write-warning.jpg)
 
+19.远程执行bat脚本
+```
+Invoke-Command  -Session $s -ScriptBlock 
+{ 
+c:/test/test.bat
+d:/test/test02.ps1
+}
+```
+
+本地执行
+```
+Invoke-Command -ScriptBlock {C:\PSInstall.bat}
+```
+
+
+20.将密码变成密文
+
+`$p2 = ConvertTo-SecureString “XXXXXXX” -AsPlainText -Force`
+
+$A = New-Object System.Management.Automation.PSCredential($na,$p2)
+
+21.通过进程名获取进程ID
+
+`$id  = Get-Process -name explorer* | Select-Object id | ForEach-Object -Process{$_.id}`
+
+22.powershell 结束进程的四种写法
+
+纯cmdlet命令
+
+`Get-Process -Name notepad | Stop-Process`
+
+cmdlet+遍历
+
+`Get-Process -Name notepad | foreach-object{$_.Kill()} `
+
+WMI 对象 + 遍历 + 对象方法 
+
+`Get-WmiObject Win32_Process -Filter "name = 'notepad.exe'" | ForEach-Object{$_.Terminate()  | Out-Null }`
+
+WMI 对象 + 遍历 + cmdlet方法
+
+`Get-WmiObject Win32_Process -Filter "name = 'notepad.exe'" | Invoke-WmiMethod -Name Terminate | Out-Null`
+
 
 
  
