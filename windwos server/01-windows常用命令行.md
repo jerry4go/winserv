@@ -14,4 +14,74 @@
 
 `netstat -ano | findstr "8080"`
 
+4.杀掉指定端口对应的进程
+
+cmd命令下面的直接执行的写法
+
+`FOR /F "tokens=4 delims= " %P IN ('netstat -a -n -o ^| findstr :8080') DO TaskKill.exe /PID %P`
+
+批处理bat文件内执行的写法
+
+`FOR /F "tokens=4 delims= " %%P IN ('netstat -a -n -o ^| findstr :8080') DO TaskKill.exe /PID %%P`
+
+根据不同的系统，对应进程ID的位置调节tokens=4 的值
+
+5.进程ID操作命令
+
+通过进程ID获取具体的执行命令
+
+`wmic process where "ProcessID=1111" get CommandLine, ExecutablePath`
+
+通过进程名获取进程ID
+
+`wmic service where name='schedule' get ProcessId`
+
+通过父进程ID获取对应的子进程
+
+`wmic process where ParentProcessId=288`
+
+模糊获取
+
+wmic printer where "not DriverName like '%HP%'" Get Name, PortName, DriverName
+
+6.强制杀进程和优雅杀进程
+
+`taskkill /PID 827`
+ 
+结束进程ID 是827 的进程。
+ 
+`taskkill /F /IM notepad.exe`
+  
+强制结束所有的文本编辑器进程
+ 
+`taskkill /F /FI "USERNAME eq Quinn" `
+ 
+强制结束用户名是Quinn 的所有进程
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
