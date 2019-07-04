@@ -65,9 +65,11 @@ slmgr /xpr
 
 用管理员权限打开cmd
 ```
-cd /d "%ProgramFiles%\Microsoft Office\Office15"
+cd /d "%ProgramFiles%\Microsoft Office\Office16"
 
 cscript ospp.vbs /sethst:192.168.1.100
+
+cscript ospp.vbs /inpkey: XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99
 
 cscript ospp.vbs /act
 
