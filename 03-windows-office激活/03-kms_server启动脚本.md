@@ -1,8 +1,9 @@
 
 
-cp binaries/Linux/intel/static/vlmcsdmulti-x64-musl-static /usr/sbin/kms
+`cp binaries/Linux/intel/static/vlmcsdmulti-x64-musl-static /usr/sbin/kms`
 
-# more /usr/lib/systemd/system/kms.service
+`#more /usr/lib/systemd/system/kms.service`
+
 ```
 [Unit]
 Description=kms
@@ -18,6 +19,8 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 ```
+
+# 服务管理
 
 systemctl daemon-reload
 
