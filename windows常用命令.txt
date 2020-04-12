@@ -1,0 +1,4 @@
+net start  查看系统服务
+
+net user   查看有哪些用户
+
