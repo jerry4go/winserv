@@ -2,3 +2,24 @@ net start  查看系统服务
 
 net user   查看有哪些用户
 
+net user lucy 查看用户属性
+
+netstat -abn  查看是否开启终端服务
+
+net localgroup administrators lucy /add 把用户lucy添加到管理员组
+
+net stop 服务名  停止服务
+
+net pause 服务名  暂停服务
+
+net password 修改密码
+
+cmd /c dir  列出当前目录
+
+
+
+net user xiong$ xiong /add
+
+net localgroup administrators xiong$ /add
+
+mstsc /admin
